@@ -18,7 +18,7 @@ Shell should:</br>
 2) ">" should redirect output.</br>
 3) "<<" should be given a delimiter, then read the input until a line containing the delimiter is seen. However, it doesn’t have to update the history!</br>
 4) ">>" should redirect output in append mode.</br>
-</br>
+
 • Implement pipes (| character). The output of each command in the pipeline is connected to the input of the next command via a pipe.</br>
 • Handle environment variables ($ followed by a sequence of characters) which should expand to their values.</br>
 • Handle $? which should expand to the exit status of the most recently executed foreground pipeline.</br>
@@ -27,12 +27,12 @@ Shell should:</br>
 1) ctrl-C displays a new prompt on a new line.</br>
 2) ctrl-D exits the shell.</br>
 3) ctrl-\ does nothing.</br>
-</br>
+
 • Your shell must implement the following builtins:</br>
-1) echo with option -n</br>
-2) cd with only a relative or absolute path</br>
-3) pwd with no options</br>
-4) export with no options</br>
-5) unset with no options</br>
-6) env with no options or arguments</br>
-7) exit with no options</br>
+1) "echo" with option -n</br>
+2) "cd" with only a relative or absolute path</br>
+3) "pwd" with no options</br>
+4) "export" with no options</br>
+5) "unset" with no options</br>
+6) "env" with no options or arguments</br>
+7) "exit" with no options</br>
